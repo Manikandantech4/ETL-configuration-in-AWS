@@ -8,4 +8,5 @@ Build a simple ETL pipeline that:
 3. Saves the processed data back to S3
 4. Queries it using AWS Athena
 
-<img width="869" height="351" alt="Screenshot 2025-07-28 at 11 37 13 AM" src="https://github.com/user-attachments/assets/e15e5850-c769-44e2-8d5c-ffee1bb09d00" />
+<img width="910" height="118" alt="Screenshot 2025-07-28 at 12 15 33 PM" src="https://github.com/user-attachments/assets/1f6393ea-9ea5-4cd4-b17d-54321b7493da" />
+
