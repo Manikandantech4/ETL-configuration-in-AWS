@@ -7,3 +7,5 @@ Build a simple ETL pipeline that:
 2. Cleans/transforms it using AWS Glue Studio
 3. Saves the processed data back to S3
 4. Queries it using AWS Athena
+
+<img width="869" height="351" alt="Screenshot 2025-07-28 at 11 37 13 AM" src="https://github.com/user-attachments/assets/e15e5850-c769-44e2-8d5c-ffee1bb09d00" />
