@@ -13,11 +13,13 @@ Build a simple ETL pipeline that:
 Steps:
 Create S3 buckets
 1 source bucket to upload csv file, 1 target bucket to store the transformed data and 1 bucket to store athena query results.
+
 <img width="709" height="181" alt="Screenshot 2025-07-28 at 2 35 10 PM" src="https://github.com/user-attachments/assets/ad513074-32c0-401f-b996-9204fe03b5e0" />
 
 
 Create IAM role for AWS Glue to access s3 buckets
 Go to Rules and choose Glue in service, select s3fullaccess and GlueService Role and click next. Name the role as your wish.
+
 <img width="808" height="181" alt="Screenshot 2025-07-28 at 2 36 35 PM" src="https://github.com/user-attachments/assets/580119db-c380-4f19-ba34-4a05eabce142" />
 
 
@@ -40,4 +42,5 @@ Go to GLue again, click ETL jobs. Under Sources select Amazon S3 and click that 
 <img width="1103" height="516" alt="Screenshot 2025-07-28 at 2 41 38 PM" src="https://github.com/user-attachments/assets/3a143500-299c-4649-a132-132376eb5f5d" />
 
 Now the ETL job will run and save the data in our S3 target bucket.
+
 <img width="1103" height="516" alt="Screenshot 2025-07-28 at 2 41 59 PM" src="https://github.com/user-attachments/assets/d8a32acb-e844-4761-b769-a14ac7f19367" />
