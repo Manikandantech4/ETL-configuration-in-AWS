@@ -10,3 +10,8 @@ Build a simple ETL pipeline that:
 
 <img width="910" height="118" alt="Screenshot 2025-07-28 at 12 15 33 PM" src="https://github.com/user-attachments/assets/1f6393ea-9ea5-4cd4-b17d-54321b7493da" />
 
+Steps:
+1. Create S3 buckets:
+1 source bucket to upload csv file, 1 target bucket to store and 1 bucket to store athena query results
+
+2. Create IAM role for AWS Glue to access s3 buckets
